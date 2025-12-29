@@ -1,0 +1,30 @@
+# Build artifacts
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Build directories
+build/
+bin/
+obj/
+
+# IDE and editor files
+.vscode/settings.json  # Ignore user-specific settings
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+
+# Test artifacts
+tests/*.exe
+tests/*.o
