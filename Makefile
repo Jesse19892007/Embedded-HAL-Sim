@@ -2,7 +2,7 @@
 CXX = C:\msys64\ucrt64\bin\g++.exe
 
 # Common include paths
-CXXFLAGS = -Iinclude -std=c++17
+CXXFLAGS = -Iinclude -Itests -std=c++17
 
 # Build directories
 build_debug = build/debug
